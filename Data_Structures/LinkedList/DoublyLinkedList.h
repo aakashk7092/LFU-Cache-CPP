@@ -25,5 +25,8 @@ public:
         tail = nullptr;
         size = 0;
     }
+    void  addFront(Node* node);
+    void  removeNode(Node* node);
+    Node* removeLast();
 };
 
